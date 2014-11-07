@@ -1,30 +1,25 @@
 # Javascript - Jasmine
 # Copyright © 2014 Jiri Chara. All Rights Reserved.
-
 # describe
 snippet des
 	describe("${1:description}", function() {
 		${2}
 	});${3}
-
 # xdescribe
 snippet xdes
 	xdescribe("${1:description}", function() {
 		${2}
 	});${3}
-
 # it
 snippet it
 	it("${1:description}", function() {
 		${2}
 	});${3}
-
 # xit
 snippet xit
 	xit("${1:description}", function() {
 		${2}
 	});${3}
-
 # beforeEach
 snippet bef
 	beforeEach(function() {
@@ -35,151 +30,114 @@ snippet aft
 	afterEach(function() { 
 		${1} 
 	});
-
 # toBe
 snippet tb
 	expect(${1}).toBe(${2});${3}
-
 # not.toBe
 snippet ntb
 	expect(${1}).not.toBe(${2});${3}
-
 # toEqual
 snippet te
 	expect(${1}).toEqual(${2});${3}
-
 # not.toEqual
 snippet nte
 	expect(${1}).not.toEqual(${2});${3}
-
 # toMatch
 snippet tm
 	expect(${1}).toMatch(${2});${3}
-
 # not.toMatch
 snippet ntm
 	expect(${1}).not.toMatch(${2});${3}
-
 # toBeDefined
 snippet tbd
 	expect(${1}).toBeDefined();${2}
-
 # not.toBeDefined
 snippet ntbd
 	expect(${1}).not.toBeDefined();${2}
-
 # toBeUndefinded
 snippet tbu
 	expect(${1}).toBeUndefined();${2}
-
 # not.toBeUndefinded
 snippet ntbu
 	expect(${1}).not.toBeUndefined();${2}
-
 # toBeNull
 snippet tbn
 	expect(${1}).toBeNull();${2}
-
 # not.toBeNull
 snippet ntbn
 	expect(${1}).not.toBeNull();${2}
-
 # toBeTruthy
 snippet tbt
 	expect(${1}).toBeTruthy();${2}
-
 # not.toBeTruthy
 snippet ntbt
 	expect(${1}).not.toBeTruthy();${2}
-
 # toBeFalsy
 snippet tbf
 	expect(${1}).toBeFalsy();${2}
-
 # not.toBeFalsy
 snippet ntbf
 	expect(${1}).not.toBeFalsy();${2}
-
 # toContain
 snippet tc
 	expect(${1}).toContain(${2});${3}
-
 # not.toContain
 snippet ntc
 	expect(${1}).not.toContain(${2});${3}
-
 # toBeLessThan
 snippet tbl
 	expect(${1}).toBeLessThan(${2});${3}
-
 # not.toBeLessThan
 snippet ntbl
 	expect(${1}).not.toContain(${2});${3}
-
 # toBeGreaterThan
 snippet tbg
 	expect(${1}).toBeGreaterThan(${2});${3}
-
 # not.toBeLessThan
 snippet ntbg
 	expect(${1}).not.toBeGreaterThan(${2});${3}
-
 # toBeCloseTo
 snippet tbct
 	expect(${1}).toBeCloseTo(${2}, ${3});${4}
-
 # not.toBeLessThan
 snippet ntbct
 	expect(${1}).not.toBeCloseTo(${2}, ${3});${4}
-
 # toThrow
 snippet tt
 	expect(${1}).toThrow(${2});${3}
-
 # not.toThrow
 snippet ntt
 	expect(${1}).not.toThrow(${2});${3}
-
 # not.toThrowError
 snippet tte
 	expect(${1}).toThrowError(${2});${3}
-
 # not.toThrowError
 snippet ntte
 	expect(${1}).not.toThrowError(${2});${3}
-
 # toHaveBeenCalled
 snippet thbc
 	expect(${1}).toHaveBeenCalled();${2}
-
 # not.toHaveBeenCalled
 snippet nthbc
 	expect(${1}).not.toHaveBeenCalled();${2}
-
 # toHaveBeenCalledWith
 snippet thbcw
 	expect(${1}).toHaveBeenCalledWith(${2});${3}
-
 # not.toHaveBeenCalledWith
 snippet nthbcw
 	expect(${1}).not.toHaveBeenCalledWith(${2});${3}
-
 # spyOn
 snippet so
 	spyOn(${1}, '${2}');${3}
-
 # spyOn.and.callThrough
 snippet soact
 	spyOn(${1}, '${2}').and.callThrough();${3}
-
 # spyOn.and.callThrough
 snippet soarv
 	spyOn(${1}, '${2}').and.returnValue(${$3});${4}
-
 # spyOn.and.callFake
 snippet soacf
 	spyOn(${1}, '${2}').and.callFake(${$3});${4}
-
 # spyOn.and.throwError
 snippet soate
 	spyOn(${1}, '${2}').and.throwError(${$3});${4}
